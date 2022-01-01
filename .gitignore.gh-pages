@@ -1,0 +1,5 @@
+*
+*/
+!.gitignore
+!.gitignore.gh-pages
+!_book/*
