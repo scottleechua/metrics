@@ -1,8 +1,8 @@
-book_filename: "metrics"
+book_filename: "Econometrics"
 new_session: true
 before_chapter_script: _common.R
 output_dir: "docs"
 delete_merged_file: true
-language:
-  ui:
-    chapter_name: "Chapter "
+#language:
+#  ui:
+#    chapter_name: "Chapter "
