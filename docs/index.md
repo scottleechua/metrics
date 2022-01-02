@@ -1,7 +1,7 @@
 --- 
 title: "Econometrics"
 author: "Scott Lee Chua"
-date: "01 Jan 2022"
+date: "02 Jan 2022"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [references.bib]
@@ -21,6 +21,12 @@ I first made these notes for myself while taking the class, then refined them ov
 
 **This is a work in progress.** The plan is to license these notes under Creative Commons, but as I have not yet thought that through, all rights are reserved for the time being.
 
-To raise corrections or suggest edits, please create an issue on the [GitHub repo](https://github.com/scottleechua/metrics).
+## Progress
+- Transcribe handwritten notes **(in progress)**
+- Reorganize and refine notes **(next)**
+
+## Contact
+
+To raise corrections or suggest edits, please open a pull request on the [GitHub repo](https://github.com/scottleechua/metrics), or email me at scottleechua [at] gmail [dot] com.
 
 

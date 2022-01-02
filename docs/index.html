@@ -38,7 +38,12 @@
 </form>
 
       <nav aria-label="Table of contents"><h2>Table of contents</h2>
-        <ul class="book-toc list-unstyled"><li><a class="active" href="index.html"><span class="header-section-number">1</span> Overview</a></li></ul>
+        <ul class="book-toc list-unstyled">
+<li><a class="active" href="index.html"><span class="header-section-number">1</span> Overview</a></li>
+<li class="book-part">Prerequisites</li>
+<li><a class="" href="intro.html"><span class="header-section-number">2</span> Intro</a></li>
+<li><a class="" href="probability.html"><span class="header-section-number">3</span> Probability</a></li>
+</ul>
 
         <div class="book-extra">
           
@@ -52,15 +57,38 @@
 <p>These are lecture notes for an introductory undergraduate econometrics class. They are based off my notes for YSS2211 Econometrics at Yale-NUS College, as taught by <a href="https://scholar.google.com/citations?user=E0B6j9AAAAAJ&amp;hl=en">Eugene Choo</a>.</p>
 <p>I first made these notes for myself while taking the class, then refined them over the next three years while serving as economics peer tutor.</p>
 <p><strong>This is a work in progress.</strong> The plan is to license these notes under Creative Commons, but as I have not yet thought that through, all rights are reserved for the time being.</p>
-<p>To raise corrections or suggest edits, please create an issue on the <a href="https://github.com/scottleechua/metrics">GitHub repo</a>.</p>
+<div id="progress" class="section level2" number="1.1">
+<h2>
+<span class="header-section-number">1.1</span> Progress<a class="anchor" aria-label="anchor" href="#progress"><i class="fas fa-link"></i></a>
+</h2>
+<ul>
+<li>Transcribe handwritten notes <strong>(in progress)</strong>
+</li>
+<li>Reorganize and refine notes <strong>(next)</strong>
+</li>
+</ul>
+</div>
+<div id="contact" class="section level2" number="1.2">
+<h2>
+<span class="header-section-number">1.2</span> Contact<a class="anchor" aria-label="anchor" href="#contact"><i class="fas fa-link"></i></a>
+</h2>
+<p>To raise corrections or suggest edits, please open a pull request on the <a href="https://github.com/scottleechua/metrics">GitHub repo</a>, or email me at scottleechua [at] gmail [dot] com.</p>
 
 </div>
+</div>
+
+
+
   <div class="chapter-nav">
 <div class="empty"></div>
-<div class="empty"></div>
+<div class="next"><a href="intro.html"><span class="header-section-number">2</span> Intro</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
-      <ul class="nav navbar-nav"><li><a class="nav-link" href="#overview"><span class="header-section-number">1</span> Overview</a></li></ul>
+      <ul class="nav navbar-nav">
+<li><a class="nav-link" href="#overview"><span class="header-section-number">1</span> Overview</a></li>
+<li><a class="nav-link" href="#progress"><span class="header-section-number">1.1</span> Progress</a></li>
+<li><a class="nav-link" href="#contact"><span class="header-section-number">1.2</span> Contact</a></li>
+</ul>
 
       <div class="book-extra">
         <ul class="list-unstyled">
@@ -76,7 +104,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>Econometrics</strong>" was written by Scott Lee Chua. It was last built on 01 Jan 2022.</p>
+    <p>"<strong>Econometrics</strong>" was written by Scott Lee Chua. It was last built on 02 Jan 2022.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
@@ -84,6 +112,34 @@
   </div>
 
 </div></div>
-</footer>
+</footer><!-- dynamically load mathjax for compatibility with self-contained --><script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script><script type="text/x-mathjax-config">const popovers = document.querySelectorAll('a.footnote-ref[data-toggle="popover"]');
+for (let popover of popovers) {
+  const div = document.createElement('div');
+  div.setAttribute('style', 'position: absolute; top: 0, left:0; width:0, height:0, overflow: hidden; visibility: hidden;');
+  div.innerHTML = popover.getAttribute('data-content');
+
+  var has_math = div.querySelector("span.math");
+  if (has_math) {
+    document.body.appendChild(div);
+    MathJax.Hub.Queue(["Typeset", MathJax.Hub, div]);
+    MathJax.Hub.Queue(function() {
+      popover.setAttribute('data-content', div.innerHTML);
+      document.body.removeChild(div);
+    })
+  }
+}
+</script>
 </body>
 </html>
