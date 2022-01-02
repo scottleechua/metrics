@@ -1,7 +1,7 @@
 --- 
 title: "Econometrics"
 author: "Scott Lee Chua"
-date: "`r format(Sys.Date(), format = '%d %b %Y')`"
+date: "02 Jan 2022"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [references.bib]
@@ -29,9 +29,4 @@ I first made these notes for myself while taking the class, then refined them ov
 
 To raise corrections or suggest edits, please open a pull request on the [GitHub repo](https://github.com/scottleechua/metrics), or email me at scottleechua [at] gmail [dot] com.
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'references.bib')
-```
+
