@@ -4,6 +4,7 @@ author: "Scott Lee Chua"
 date: "`r format(Sys.Date(), format = '%d %b %Y')`"
 site: bookdown::bookdown_site
 documentclass: book
+math: false
 bibliography: [references.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
